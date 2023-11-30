@@ -1,0 +1,49 @@
+.calendar-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+.calendar-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+  
+.full-calendar {
+    width: 60%;
+}
+  
+.calendar-text {
+    width: 40%;
+    margin-left: 5%;
+}
+
+/* 일요일 날짜: 빨간색 */
+.fc-day a {
+    color: black;
+}
+  
+/* 일요일 날짜: 빨간색 */
+.fc-day-sun a {
+    color: red;
+}
+  
+/* 토요일 날짜: 파란색 */
+.fc-day-sat a {
+    color: blue;
+}
+
+.fc-button-today {
+    width: 2px; /* 원하는 크기로 조절 */
+    padding: 2px 6px; /* 원하는 패딩으로 조절 */
+}
+
+/* @media (max-width: 600px) {
+    .fc-button-today {
+      font-size: 2px;  원하는 크기로 조절
+      padding: 2px 6px; 원하는 패딩으로 조절
+    }
+  }
+*/
