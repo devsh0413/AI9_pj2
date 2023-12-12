@@ -1,0 +1,18 @@
+/* .username{
+    background: linear-gradient(to top, rgb(176, 195, 252) 40%, transparent 50%);
+} */
+
+.center-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.center-content {
+    text-align: center;
+}
+
+#fileInput-text {
+    color: blue;
+    text-decoration: underline;
+}
